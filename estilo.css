@@ -1,0 +1,45 @@
+header{
+    background-color: #c6c6c6;
+    width: 100%;
+   
+}
+.caixa{
+    width:80%;
+    margin: 0 auto;
+    padding-left:10%;
+}
+h1 {
+    font-size: 70px;
+     
+}
+p {
+    text-align:center;
+}
+
+nav {
+    position: absolute; 
+    top: 110px;
+    right:15%;
+    
+    
+    
+  
+}
+nav li  {
+    display:inline-flex;
+    margin-left: 15px;
+   
+  
+   
+
+}
+nav a{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+  
+   
+
+}
