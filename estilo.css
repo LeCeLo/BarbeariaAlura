@@ -1,5 +1,5 @@
 header{
-    background-color: #c6c6c6;
+    background-image: linear-gradient(#c6c6c6, white);
     width: 100%;
    
 }
@@ -8,9 +8,40 @@ header{
     width:80%;
     margin: 0 auto;
     padding-left:10%;
+    display: inline-flex;
+    text-decoration: none;
+    
+}
+.caixa img:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+   
+}
+.caixa a{
+   text-decoration: none;
+}
+.titulo{
+    padding-top: 90px;
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+  
+
+.titulo:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+    
+    
+    
+    
 }
 h1 {
     font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
      
 }
 p {
@@ -21,6 +52,7 @@ nav {
     position: absolute; 
     top: 110px;
     right:15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
     
@@ -55,9 +87,51 @@ nav li a:hover{
    
 
 }
+main {
+    width: 100%;
+    margin:0 auto;
+    }
+form{
+    margin:10% 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}    
+form input{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 1%;
+    padding:10px 25px;
+    width: 70%;
+    
+}
+form label{
+    font-size: 20px;
+   
+}
+descricao{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+descricao h2{
+    font-size: 50px;
+    padding: 80px 0px;
+}
+descricao p {
+    font-size: 30px;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 15px;
+  
+}
+.navalha {
+    width: 33%;
+    text-align: center;
+    margin: 0 33%;
+   
+}
 
 .produtos {
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
     padding: 2% 2%;
@@ -110,3 +184,21 @@ nav li a:hover{
     margin-top: 2%;
 
 } 
+
+footer{
+    background-image: linear-gradient(white, rgb(43, 43, 43));
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    padding-top:10%;
+    padding-bottom:5%;
+  
+
+}
+
+.copyright{
+    color:#fff;
+}
+
+banner img{
+    width: 100%;
+}
