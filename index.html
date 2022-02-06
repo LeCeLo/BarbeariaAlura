@@ -2,11 +2,12 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-widith">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilo.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet"> 
     <title>Barbearia Alura</title>
 <body>    
 </head>
@@ -24,34 +25,52 @@
 
 </header>
 <main>
-    <banner>
+    <div class="banner">
    <img src="imagens/banner.jpg">
-   </banner>
-   <descricao>
-    <h2>Sobre a Barbearia Alura</h2>
-
-    <p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-    
-    <p> Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".</p>
-    
-    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-    <img src="imagens/pngwing.com.png" class="navalha" alt="Navalha de Barbeiro">
-   </descricao>
-   <section>
+    </div>
+   <div class="container">
+   <section class="descricao">
+        <h2>Sobre a Barbearia Alura</h2>
+            <div id="sobre">
+                <p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.<br><br>
+                Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".<br><br>
+                Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </div>
+            <img src="imagens/pngwing.com.png" class="navalha" alt="Navalha de Barbeiro">
+        </section>
+    </div>
+   <section class="beneficios">
     <h2>Benefícios</h2>
     <ul>
-    <li><img src="imagens/toalha.png" alt="Atendimento Personalizado"><br>Atendimento Personalizado</li>
-    <li><img src="imagens/barbeiro.png" alt="Estacionamento Gratuito"><br>Estacionamento Gratuito</li>
-    <li><img src="imagens/penteebarba.png" alt="Produtos para Cabelo e Barba"><br>Loja de Produtos</li>
+    <li class ="itens" ><br><br><img src="imagens/toalha.png"alt="Atendimento Personalizado"><br>Atendimento<br>Personalizado</li>
+    <li class ="itens"><br><br><img src="imagens/barbeiro.png" alt="Estacionamento Gratuito"><br>Estacionamento<br>Gratuito</li>
+    <li class ="itens"><br><br><img src="imagens/penteebarba.png" alt="Produtos para Cabelo e Barba"><br>Loja de<br>Produtos</li>
+    <li class ="itens"><br><br><img src="imagens/esfregao-de-limpeza.png" alt="Limpeza"><br>Limpeza</li>
     
     </ul>   
    </section>
-   
+   <section class="video">
+       <h2>Vídeos</h2>
+    <iframe class="janelavideo"  src="https://www.youtube.com/embed/r4LbJlNdgTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="janelavideo" src="https://www.youtube.com/embed/iAqidDOG47g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="janelavideo" height="315" src="https://www.youtube.com/embed/Usms1az2QxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </section>
+   <div class="containermapa">
+   <section class="mapa">
+       <h2>Nosso Estabelecimento</h2>
+       <h3>Localizada no coração da cidade</h3>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.2743695339886!2d-49.24559058509709!3d-25.395624937754803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce67d8b2b9dd5%3A0xcc62d8c125e75be8!2sRua%20Waldomiro%20Dombeck%2C%2053%20-%20Boa%20Vista%2C%20Curitiba%20-%20PR%2C%2082540-095!5e0!3m2!1spt-BR!2sbr!4v1644030628453!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy">
+   </iframe>
+</section>
+</div>
+<div class="banner2">   
+</div>
 </main>
 <footer>
 
-    <img src = "/imagens/logo-branco.png" alt = "Logo Barbearia Alura">
-    <p class="copyright">&copy; Copyright Barbearia Alura 2022 </p>
+    <p>Barbearia<br><img src="/imagens/logo-branco.png" alt = "Logo Barbearia Alura"></p>
+    <p class="copyright"> &copy; Copyright Barbearia Alura 2022 </p>
+
 
 
 </footer>
